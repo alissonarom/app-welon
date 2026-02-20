@@ -1,0 +1,12 @@
+{
+  "name": "welon-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=welon-web",
+    "build": "npm run build --workspace=welon-web",
+    "start": "npm run start --workspace=welon-web"
+  }
+}
